@@ -1,0 +1,44 @@
+{
+  "name": "promise.waterfall2",
+  "version": "1.0.0",
+  "description": "Runs an array of promises in series, each passing their results to the next promise in the array. support an initialization parameter",
+  "main": "index.js",
+  "scripts": {
+    "test":"eslint ./*.js && blue-tape test.js",
+    "lint": "eslint ./*.js",
+    "lint:fix": "eslint ./*.js --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xuxihai123/promise.waterfall2.git"
+  },
+  "keywords": [
+    "promise",
+    "array",
+    "series",
+    "waterfall",
+    "javascript",
+    "nodejs",
+    "fun-fun-functional",
+    "pineapple"
+  ],
+  "author": {
+    "name": "Xu Xi Hai",
+    "email": "xuxihai123@gmail.com"
+  },
+  "files": [
+    "index.js"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xuxihai123/promise-waterfall2/issues"
+  },
+  "homepage": "https://github.com/xuxihai123/promise-waterfall2#readme",
+  "devDependencies": {
+    "ap": "^0.2.0",
+    "blue-tape": "^0.1.11",
+    "eslint": "4.1.1",
+    "eslint-config-google": "^0.9.1"
+  },
+  "dependencies": {}
+}
