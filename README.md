@@ -1,5 +1,5 @@
 # promise-waterfall2
-> Runs an array of promises in series, each passing their results to the next promise in the array.. support an initialization parameter
+> Runs an array of promises in series, each passing their results to the next promise in the array. support an initialization parameter
 
 ## Install
 
@@ -39,7 +39,7 @@ promiseWaterfall([
 
 ## API
 
-#### `promiseWaterfall(functions)` -> `promise`
+#### `promiseWaterfall(functions,[initialArgs])` -> `promise`
 
 Runs the array of functions in series, waiting for each to resolve and passing each result to the next function in the array.
 
